@@ -62,6 +62,6 @@ Is even: ${isEven(roundedToHundreds)}
 Change amount: ${changeAmount}
 Avarage value: ${avarageValue.toFixed(2)}
 Discount: ${randomDiscount}
-Total price with discont: ${totalWithDiscount.toFixed(2)}
+Total price with discount: ${totalWithDiscount.toFixed(2)}
 Net profit: ${netProfit}
 `);
