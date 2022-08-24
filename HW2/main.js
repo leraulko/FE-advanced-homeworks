@@ -1,6 +1,6 @@
 let minValue = Number(prompt ("Enter a number"));
 
-while (!Number.isInteger(minValue) || minValue == '' || minValue == null) {
+while (!Number.isInteger(minValue) || minValue == '' || minValue == null || minValue < 0) {
     alert ("This number isn't valid. Enter an integer!");
     minValue = Number(prompt ("Enter an integer"));
 } 
@@ -8,7 +8,7 @@ console.log(minValue);
 
 let maxValue = Number(prompt ("Enter a second number"));
 
-while (!Number.isInteger(maxValue) || maxValue == '' || maxValue == null) {
+while (!Number.isInteger(maxValue) || maxValue == '' || maxValue == null || maxValue < 0) {
     alert ("This number isn't valid. Enter an integer!");
     maxValue = Number(prompt ("Enter second integer"));
 }
