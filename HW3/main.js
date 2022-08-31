@@ -85,9 +85,10 @@ console.log(deleteLetters('o', 'Pneumonoultramicroscopicsilicovolcanokoniosis'))
 
 // 12
 function isPalindrom(palindrome) {
+    palindrome = palindrome.replaceAll(' ', '');
     return palindrome.toLowerCase() === palindrome.split('').reverse().join('').toLowerCase();
 }
-console.log(isPalindrom('SaippuAkivikauPpias'));
+console.log(isPalindrom('SaippuAki vikauPpias'));
 
 // 13
 function deleteDuplicateLetter(string) {
@@ -112,6 +113,6 @@ document.writeln(
     Function №7: 100$ in UAH - ${convertCurrency('100$')} ; 25 UAH in USD - ${convertCurrency('25 UAH')} <br/>
     Function №9: Get random pass - ${getRandomPassword(8)} <br/>
     Function №11: Delete the letter 'o' from the word 'Pneumonoultramicroscopicsilicovolcanokoniosis' - ${deleteLetters('o', 'Pneumonoultramicroscopicsilicovolcanokoniosis')} <br/>
-    Function №12: Is the word 'saippuakivikauppias' a palindrome - ${isPalindrom('saippuakivikauppias')} <br/>
+    Function №12: Is the word 'saippuakivikauppias' a palindrome - ${isPalindrom('SaippuAkivikauPpias')} <br/>
     Function №13: Delete duplicate letters from the sentence 'Both your hands in the holes of my sweater' - ${deleteDuplicateLetter('Both your hands in the holes of my sweater')} `
 )
