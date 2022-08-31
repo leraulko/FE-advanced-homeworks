@@ -85,9 +85,9 @@ console.log(deleteLetters('o', 'Pneumonoultramicroscopicsilicovolcanokoniosis'))
 
 // 12
 function isPalindrom(palindrome) {
-    return palindrome.toLowerCase == palindrome.split('').reverse().join('').toLowerCase;
+    return palindrome.toLowerCase() === palindrome.split('').reverse().join('').toLowerCase();
 }
-console.log(isPalindrom('saippuakivikauppias'));
+console.log(isPalindrom('SaippuAkivikauPpias'));
 
 // 13
 function deleteDuplicateLetter(string) {
