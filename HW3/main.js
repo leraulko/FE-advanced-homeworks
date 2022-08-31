@@ -66,7 +66,7 @@ function convertCurrency(value) {
 console.log(convertCurrency('100$'));
 
 // 9
-function getRandomPassword(length) {
+function getRandomPassword(length = 8) {
     let password = '';
 
     for (let i = 0; i < length; i++) {
@@ -74,7 +74,7 @@ function getRandomPassword(length) {
     } 
     return password
 }
-console.log(getRandomPassword(8));
+console.log(getRandomPassword());
 
 // 11
 function deleteLetters(letter, word) {
@@ -85,7 +85,7 @@ console.log(deleteLetters('o', 'Pneumonoultramicroscopicsilicovolcanokoniosis'))
 
 // 12
 function isPalindrom(palindrome) {
-    return palindrome == palindrome.split('').reverse().join('');
+    return palindrome.toLowerCase == palindrome.split('').reverse().join('').toLowerCase;
 }
 console.log(isPalindrom('saippuakivikauppias'));
 
