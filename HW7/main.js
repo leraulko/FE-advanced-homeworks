@@ -6,7 +6,7 @@ const lithuania = { tax: 0.15, middleSalary: 1509, vacancies: 1114 };
 
 // 1
 function getMyTaxes(salary) {
-    return salary - this.tax * salary;
+    return this.tax * salary;
 }
 console.log(getMyTaxes.call(ukraine, 1500));
 
