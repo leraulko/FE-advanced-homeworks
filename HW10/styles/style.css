@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(./assets/animals.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.key {
+    width: 100px;
+    height: 100px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 10px;
+    background: linear-gradient(rgba(250, 250, 250, 0.5), rgba(226, 226, 226, 0.5) );
+}
+
+kbd {
+    font-family: monospace;
+    font-size: 46px;
+}
+
+.key > p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(5, 75, 188);
+}
+
+.active {
+    border: 5px solid rgb(5, 75, 188);
+}
