@@ -1,0 +1,33 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+p {
+    width: 500px;
+    margin: 0 auto;
+}
+
+button {
+    width: 140px;
+    height: 40px;
+    background-color: rgba(37, 95, 194, 0.789);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 0px rgba(28, 74, 153, 0.789);
+    cursor: pointer;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: 500;
+    margin: 30px 10px;
+}
+
+#text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color:rgba(37, 95, 194, 0.789);
+}
+
