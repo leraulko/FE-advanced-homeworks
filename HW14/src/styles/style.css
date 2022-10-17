@@ -1,0 +1,9 @@
+body {
+    width: 100vw;
+    background-color: aliceblue;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 20px 0;
+}
