@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FE-advanced-homeworks/static/css/main.bbca01c5.css",
+    "main.js": "/FE-advanced-homeworks/static/js/main.5297597a.js",
+    "static/js/787.28cb0dcd.chunk.js": "/FE-advanced-homeworks/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/FE-advanced-homeworks/index.html",
+    "main.bbca01c5.css.map": "/FE-advanced-homeworks/static/css/main.bbca01c5.css.map",
+    "main.5297597a.js.map": "/FE-advanced-homeworks/static/js/main.5297597a.js.map",
+    "787.28cb0dcd.chunk.js.map": "/FE-advanced-homeworks/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbca01c5.css",
+    "static/js/main.5297597a.js"
+  ]
+}
